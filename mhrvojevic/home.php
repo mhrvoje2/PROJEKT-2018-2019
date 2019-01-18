@@ -22,7 +22,7 @@ print '
 	<h1>Najnovije vijesti</h1>
 	<div>
 	<figure>
-			<img src="cern.jpeg" alt="podrum"width="500" height="300 title="podrum">
+			<img src="cern.jpeg" alt="podrum" width= 50%  title="podrum">
 			<figcaption>Ministrica znanosti i obrazovanja Blaženka Divjak najavila je prije nekoliko dana kako će Hrvatska iduće godine postati pridružena članica Europskog centra za nuklearna istraživanja (CERN)</figcaption>
 	</figure></div>
 	<h2>HRVATSKA ULAZI U CERN: IDUĆE GODINE POSTAJEMO PRIDRUŽENI ČLAN VELIKOG ZNANSTVENOG CENTRA<h2>

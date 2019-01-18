@@ -7,8 +7,6 @@ Ime:<br>
 Lozinka:<br>
 <input type="password" name="lozinka"><br>
 <br>
-<br>
-<br>
 
 <input type="submit" value="Submit" name='botun'/>
 

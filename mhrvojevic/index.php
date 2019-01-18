@@ -19,7 +19,7 @@ print '
 <body>
 	<header>
 		<figure>
-<img src="news.jpeg"alt="moja slika"width="300%" height="300";>
+<img src="news.jpeg"alt="moja slika"width= 100% height=100%;>
 </figure> 
 		<nav>
 			<ul>
@@ -48,19 +48,19 @@ print '
 	# About us
 	else if ($_GET['menu'] == 4) { include("O nama.php"); }
 	# Galerija
-	else if ($_GET['menu'] == 6) { include("login.php"); }
-	# Logiranje
 	else if ($_GET['menu'] == 5) { include("galerija.php"); }
+	# Logiranje
+	else if ($_GET['menu'] == 6) { include("login.php"); }
 	#Odlogiranje
-	else if ($_GET['menu'] == 7) { session_destroy(); echo 'Sad ste izlogirani'; header('refresh:3; url=http://127.0.0.1/mhrvojevic/mhrvojevic/index.php'); }
+	else if ($_GET['menu'] == 7) { session_destroy(); echo 'Sad ste izlogirani'; header('refresh:3; url=http://127.0.0.1/mhrvojevic/index.php'); }
 
 	print '
 	</main>
 	<footer>
-		<p>Copyright &copy; 2018 Milan Hrvojević</p>
+		<p>Copyright &copy; 2018 Milan Hrvojević  <a href="https://github.com/mhrvoje2"><img src="img/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
 	</footer>
 </body>
 </html>';
 if (isset($_SESSION['username'])) {
-echo 'Vi ste:' .$_SESSION['username'];}
+echo 'Ulogirani ste kao:' .$_SESSION['username'];}
 ?>

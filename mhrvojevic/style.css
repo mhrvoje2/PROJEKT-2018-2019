@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Oswald', sans-serif;
+	font-family: Zapf Chancery, cursive;
 	margin: 0;
 	font-size: 16px;
 }
@@ -26,7 +26,7 @@ li a {
 	text-decoration: none;
 }
 li a:hover {
-	background-color: #111;
+	background-color: #800;
 }
 h1,h2 {
 	margin: 0.5em;
@@ -34,7 +34,8 @@ h1,h2 {
 }
 h2 {
 	font-size: 1.2em;
-	color: #27318b;
+	color: red;
+	font-family: Zapf Chancery, cursive;
 }
 main a {
 	color: #27318b;
@@ -91,30 +92,31 @@ hr {
 	text-align: center;
 }
 #gallery figure {
-	padding: 0.5em;
+	padding: 1.0em;
 	margin: 0 1em 0.5em 1em;
 	float: left;
 	width: 18.8%;
-	border: 1.5px solid black;
+	border: 3px solid #800;
 }
 #gallery figcaption {
 	font-size: 80%;
 	height: 35px;
 	text-align: center;
 	font-style: italic;
-	color: #27318b;
+	color: #800;
 	font-weight: bold;
 }
 figure {
 	padding: 0.4em;
 	margin: 0 1em 0.5em 1em;
 	float: upper-alpha;
-	width: 37%;
-	border: 1px solid black;
+	width: 60%;
+
 }
 figcaption {
-	font-size: 90%;
-	color:blue;
+	font-size: 100%;
+	color:#500;
+	font-family: Zapf Chancery, cursive;
 }
 #contact {
 	margin: 1em
@@ -122,8 +124,8 @@ figcaption {
 label {
 	display: block;
 }
-input[type=text], input[type=email], select, textarea {
-    width: 50%;
+input[type=text], input[type=email], input[type=password],elect, textarea {
+    width: 30%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -146,7 +148,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: red;
 }
 
 @media screen and (max-width: 900px) {
@@ -183,11 +185,11 @@ footer img {
 		margin: 0 0 0 1em;
 	}
 #news_gallery figure {
-		padding: 0.4em;
+		padding: 0.5em;
 		margin: 0 1em 0.5em 1em;
 		float: left;
 		width: 37%;
-		border: 1px solid black;
+		border: 10px solid black;
 	}
 	#news_gallery figcaption {
 		font-size: 90%;

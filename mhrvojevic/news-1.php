@@ -36,7 +36,7 @@ Osim novih modela automobila i kamiona koje priprema Tesla, planovi ove kompanij
 
 </p>
 <p>Izvor: <a href="http://www.dnevnik.hr" target="_blank">dnevnik.hr</a></p>
-			<p><a href="news.html">Back to news</a></p>
+			<p><a href="index.php?menu=2">Back to news</a></p>
 		</div>
 	</main>
 	
